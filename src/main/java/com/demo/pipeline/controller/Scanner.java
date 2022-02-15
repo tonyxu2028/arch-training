@@ -4,6 +4,11 @@ import com.demo.pipeline.core.Message;
 import com.demo.pipeline.core.Pipeline;
 import com.demo.pipeline.core.PipelineFactory;
 
+/**
+ * Scanner
+ * @author WhiteWolf
+ */
+@SuppressWarnings("ALL")
 public class Scanner {
 	public void scan(Request request){
 		String bizType = request.getBizType();
