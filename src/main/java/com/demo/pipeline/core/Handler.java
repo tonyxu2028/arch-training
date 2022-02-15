@@ -1,4 +1,5 @@
-package com.demo.pipeline.core;/*
+package com.demo.pipeline.core;
+/*
  *  Copyright 2020 The MicroMQ Project
  *
  *  The MicroMQ Project licenses this file to you under the Apache License,
@@ -14,5 +15,9 @@ package com.demo.pipeline.core;/*
  *  under the License.
  */
 
+/**
+ * @author WhiteWolf
+ */
 public interface Handler {
+
 }

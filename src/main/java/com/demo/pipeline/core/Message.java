@@ -2,9 +2,18 @@ package com.demo.pipeline.core;
 
 import com.demo.pipeline.controller.Request;
 
+/**
+ * Message
+ * @author WhiteWolf
+ */
 public class Message {
-	public static Message init(Request request) {
-		//此处省略具体实现
-		return new Message();
+
+	private Message(Request request){
+		System.out.println(request);
 	}
+
+	public static Message getInstance(Request request) {
+		return new Message(request);
+	}
+
 }

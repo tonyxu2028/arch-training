@@ -1,5 +1,9 @@
 package com.demo.pipeline.controller;
 
+/**
+ * Request
+ * @author WhiteWolf
+ */
 public class Request {
 
 	public String getBizType(){
